@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
                         fontWeight: FontWeight.bold
                       ),),
                       subtitle: Text(
-                          'La verificación de seguridad revisó tu cuenta y no encontró acciones recomendadas'),
+                          'La verificación de seguridad revisó tu cuenta y no encontró acciones recomendadas.'),
                       trailing:
                           Icon(Icons.verified_user, size: 60, color: Colors.green),
                     ),
@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                   title: Text('Verificación de privacidad',
                   style: TextStyle(fontWeight: FontWeight.bold),),
                   subtitle: Text(
-                      'Elige la configuración de privacidad indicada para ti con esta guía paso a paso'),
+                      'Elige la configuración de privacidad indicada para ti con esta guía paso a paso.'),
                   trailing: Icon(
                     Icons.shield_moon,
                     size: 60,
@@ -111,7 +111,7 @@ class HomePage extends StatelessWidget {
                                 ),
                             Row(
                               children: [
-                                Text('Mas informacion ',
+                                Text('Mas información ',
                                 style: TextStyle(color: Colors.blue, fontSize: 12),),
                                 Icon(Icons.help_outline, size: 15, color: Colors.blue)
                               ],
@@ -119,10 +119,9 @@ class HomePage extends StatelessWidget {
                           ],
                         ),
                       trailing: Icon(Icons.shield_moon, size: 50, color: Colors.blue,),
-                    ),
-                    
-                ],
-              ),
-              );
+                    ),                    
+        ],
+      ),
+    );
   }
 }
