@@ -8,7 +8,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: const Text('Cuenta de Google'),
+          title: const Text('Cuenta de Google',
+          style: TextStyle(color: Colors.white),),
           ),
           body: const Column(
             children: [
@@ -67,7 +68,7 @@ class HomePage extends StatelessWidget {
                 ),
               SizedBox(height: 20,),
               Divider(thickness: 0.7,),
-              SizedBox(height: 10,),
+              SizedBox(height: 15,),
               Row(
                 children: [
                   Padding(padding: EdgeInsets.all(10)),
